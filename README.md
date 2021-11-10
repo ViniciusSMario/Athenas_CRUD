@@ -2,7 +2,7 @@
 Teste para a empresa Athenas onde é implementado um sistema CRUD  utilizando o Framework PHP Laravel, MySQl e VueJS
 
 <h2>Execução dos projetos</h2><br><br>
-<h3>*Back-end - CRUD_api*<h3><br><br>
+<h3>*Back-end - CRUD_api*</h3><br><br>
 Após baixar o projeto back-end é necessário fazer alguns ajustes. <br>
   1 - Instalando dependências: Rode o comando "composer install" dentro do terminal em sua pasta crud_api.<br>
   2 - Configuração do banco de dados:<br>
