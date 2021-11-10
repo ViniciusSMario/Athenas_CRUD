@@ -3,6 +3,7 @@ Teste para a empresa Athenas onde é implementado um sistema CRUD  utilizando o 
 
 <h2>Execução dos projetos</h2><br><br>
 <h3>*Back-end - CRUD_api*</h3><br><br>
+Obs: Necessário ter o Composer instalado em sua máquina. Download do composer: https://getcomposer.org/download/<br>
 Após baixar o projeto back-end é necessário fazer alguns ajustes. <br>
   1 - Instalando dependências: Rode o comando "composer install" dentro do terminal em sua pasta crud_api.<br>
   2 - Configuração do banco de dados:<br>
@@ -21,12 +22,33 @@ Após baixar o projeto back-end é necessário fazer alguns ajustes. <br>
  4 - Rodando as migrations:<br>
       Após toda a configuração, utilize o comando "php artisan migrate" para rodar as migrations<br>
  5 - Rodando os Seeds<br>
-      Com as migrations criadas, utilize o comando "php artisan db:seed" para que os seeders sejam inseridos no banco de dados
+      Com as migrations criadas, utilize o comando "php artisan db:seed" para que os seeders sejam inseridos no banco de dados<br>
+ 6 - Executando o projeto<br>
+      Utilize o comando "php artisan serve" para iniciar o servidor. <br>
+      <br>
+
+  <p>************************************************************************************</p>
+  <br>
+
+<h3>*Front-end - CRUD_system*</h3><br><br>
+Obs: Necessário ter o Node e NPM instalado em sua máquina. Link pra download: https://nodejs.org/en/download/ <br>
+Após baixar o projeto front-end é necessário fazer alguns ajustes. <br>
+  1 - Instalar dependências. <br>
+    Após fazer o download do projeto, execute o comando "npm install" para instalar todas as dependências que o projeto necessita<br>
+  2 - Executando o projeto:<br>
+    Utilize o comando "npm run serve" para iniciar o projeto.<br>
+
+  <p>************************************************************************************</p>
+  <br>
 
 <h3>Tela de Login</h3>
 <p>Dados para autenticação: <br>
   email: adm@email.com<br>
   senha: 123123<br>
+
+
+
+
 
 
       
