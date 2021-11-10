@@ -1,8 +1,8 @@
 # Athenas_CRUD
 Teste para a empresa Athenas onde é implementado um sistema CRUD  utilizando o Framework PHP Laravel, MySQl e VueJS
 
-Execução dos projetos<br><br>
-*Back-end - CRUD_api*<br><br>
+<h2>Execução dos projetos</h2><br><br>
+<h3>*Back-end - CRUD_api*<h3><br><br>
 Após baixar o projeto back-end é necessário fazer alguns ajustes. <br>
   1 - Instalando dependências: Rode o comando "composer install" dentro do terminal em sua pasta crud_api.<br>
   2 - Configuração do banco de dados:<br>
@@ -15,5 +15,21 @@ Após baixar o projeto back-end é necessário fazer alguns ajustes. <br>
       DB_DATABASE=athenas_db<br>
       DB_USERNAME=root<br>
       DB_PASSWORD=password<br>
+      <br>
+ 3 - Gerar a chave JWT<br>
+     Utilize o comando "php artisan jwt:secret" para gerar a chave<br><br>
+ 4 - Rodando as migrations:<br>
+      Após toda a configuração, utilize o comando "php artisan migrate" para rodar as migrations<br>
+ 5 - Rodando os Seeds<br>
+      Com as migrations criadas, utilize o comando "php artisan db:seed" para que os seeders sejam inseridos no banco de dados
+
+<h3>Tela de Login</h3>
+<p>Dados para autenticação: <br>
+  email: adm@email.com<br>
+  senha: 123123<br>
+
+
+      
+      
       
       
